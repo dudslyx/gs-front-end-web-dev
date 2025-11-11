@@ -7,17 +7,17 @@
 
 ## 🔗 Deploy (GitHub Pages): [coloque o link aqui]
 
-## 🔗 Link do Repositório: [coloque o link aqui]
+## 🔗 Link do Repositório: [(https://github.com/dudslyx/Global_Solution-Front_End.git)]
 
 # ProfissionalNet - Rede Profissional do Futuro
 
 Uma aplicação web interativa desenvolvida com **React**, **Next.js** e **Tailwind CSS** que simula uma rede profissional voltada ao futuro do trabalho. A plataforma permite exibir e explorar perfis de profissionais cadastrados com informações completas sobre experiências, formação, projetos e habilidades.
 
-## 📋 Resumo do Projeto
+## 📋 Resumo do Projeto:
 
 **ProfissionalNet** é uma Single Page Application (SPA) moderna que apresenta uma listagem de profissionais fictícios com dados simulados em JSON. Os usuários podem visualizar cards com informações básicas e abrir modais interativos com detalhes completos de cada perfil profissional.
 
-## ✨ Funcionalidades
+## ✨ Funcionalidades:
 
 ### Interface Principal
 - **Cards de Profissionais**: Exibição em grid responsivo com foto, nome, cargo, cidade e principais habilidades
@@ -41,7 +41,7 @@ O modal de detalhes exibe informações organizadas em abas:
 - **Recomendar Profissional**: Botão para recomendar o perfil
 - **Enviar Mensagem**: Botão para iniciar contato
 
-## 🗂️ Estrutura de Dados
+## 🗂️ Estrutura de Dados:
 
 O arquivo `data/profiles.json` contém **60 perfis simulados** com a seguinte estrutura:
 
