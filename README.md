@@ -1,4 +1,13 @@
-# Global_Solution-Front_End
+## 👥 Integrantes:
+
+| Nome            | RM       |
+|-----------------|----------|
+| Eduardo Francisco Mauro Gonçalves | RM561969 |
+| Gabriel Luchetta dos Santos | RM561861 |
+
+## 🔗 Deploy (GitHub Pages): [coloque o link aqui]
+
+## 🔗 Link do Repositório: [coloque o link aqui]
 
 # ProfissionalNet - Rede Profissional do Futuro
 
@@ -51,3 +60,4 @@ O arquivo `data/profiles.json` contém **60 perfis simulados** com a seguinte es
     "cargo": "Analista",
     "inicio": "2022-01",
     "fim": "2
+
