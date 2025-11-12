@@ -5,7 +5,7 @@
 | Eduardo Francisco Mauro Gonçalves | RM561969 |
 | Gabriel Luchetta dos Santos | RM561861 |
 
-## 🔗 Deploy (GitHub Pages): [coloque o link aqui]
+## 🔗 Deploy (GitHub Pages): [(https://global-solution-front-end.vercel.app/)]
 
 ## 🔗 Link do Repositório: [(https://github.com/dudslyx/Global_Solution-Front_End.git)]
 
