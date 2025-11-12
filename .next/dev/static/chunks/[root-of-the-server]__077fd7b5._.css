@@ -860,6 +860,10 @@ body {
   background-color: #0000;
 }
 
+.\!bg-opacity-100 {
+  --tw-bg-opacity: 1 !important;
+}
+
 .p-1 {
   padding: .25rem;
 }
@@ -1136,25 +1140,25 @@ body {
 }
 
 :root {
-  --background: #fff;
-  --foreground: #0a0a0a;
-  --card: #fff;
-  --card-foreground: #0a0a0a;
-  --popover: #fff;
-  --popover-foreground: #0a0a0a;
-  --primary: #171717;
-  --primary-foreground: #fafafa;
-  --secondary: #f5f5f5;
-  --secondary-foreground: #171717;
-  --muted: #f5f5f5;
-  --muted-foreground: #737373;
-  --accent: #f5f5f5;
-  --accent-foreground: #171717;
-  --destructive: #e40014;
-  --destructive-foreground: #e40014;
-  --border: #e5e5e5;
-  --input: #e5e5e5;
-  --ring: #a1a1a1;
+  --background: 0 0% 100%;
+  --foreground: 0 0% 8.6%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 8.6%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 8.6%;
+  --primary: 0 0% 13%;
+  --primary-foreground: 0 0% 98.5%;
+  --secondary: 0 0% 97.3%;
+  --secondary-foreground: 0 0% 13%;
+  --muted: 0 0% 97.3%;
+  --muted-foreground: 0 0% 33.5%;
+  --accent: 0 0% 97.3%;
+  --accent-foreground: 0 0% 13%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98.5%;
+  --border: 0 0% 57.3%;
+  --input: 0 0% 57.3%;
+  --ring: 0 0% 44.3%;
   --chart-1: #f05100;
   --chart-2: #009588;
   --chart-3: #104e64;
@@ -1173,25 +1177,6 @@ body {
 
 @supports (color: lab(0% 0 0)) {
   :root {
-    --background: lab(100% 0 0);
-    --foreground: lab(2.75381% 0 0);
-    --card: lab(100% 0 0);
-    --card-foreground: lab(2.75381% 0 0);
-    --popover: lab(100% 0 0);
-    --popover-foreground: lab(2.75381% 0 0);
-    --primary: lab(7.78201% -.0000149012 0);
-    --primary-foreground: lab(98.26% 0 0);
-    --secondary: lab(96.52% -.0000596046 0);
-    --secondary-foreground: lab(7.78201% -.0000149012 0);
-    --muted: lab(96.52% -.0000596046 0);
-    --muted-foreground: lab(48.496% 0 0);
-    --accent: lab(96.52% -.0000596046 0);
-    --accent-foreground: lab(7.78201% -.0000149012 0);
-    --destructive: lab(48.4493% 77.4328 61.5452);
-    --destructive-foreground: lab(48.4493% 77.4328 61.5452);
-    --border: lab(90.952% -.0000596046 0);
-    --input: lab(90.952% -.0000596046 0);
-    --ring: lab(66.128% -.0000298023 .0000119209);
     --chart-1: lab(57.1026% 64.2584 89.8886);
     --chart-2: lab(55.0223% -41.0774 -3.90277);
     --chart-3: lab(30.372% -13.1853 -18.7887);
@@ -1209,25 +1194,25 @@ body {
 }
 
 .dark {
-  --background: #0a0a0a;
-  --foreground: #fafafa;
-  --card: #0a0a0a;
-  --card-foreground: #fafafa;
-  --popover: #0a0a0a;
-  --popover-foreground: #fafafa;
-  --primary: #fafafa;
-  --primary-foreground: #171717;
-  --secondary: #262626;
-  --secondary-foreground: #fafafa;
-  --muted: #262626;
-  --muted-foreground: #a1a1a1;
-  --accent: #262626;
-  --accent-foreground: #fafafa;
-  --destructive: #82181a;
-  --destructive-foreground: #fb2c36;
-  --border: #262626;
-  --input: #262626;
-  --ring: #525252;
+  --background: 0 0% 8.5%;
+  --foreground: 0 0% 99%;
+  --card: 0 0% 6.3%;
+  --card-foreground: 0 0% 99%;
+  --popover: 0 0% 8.5%;
+  --popover-foreground: 0 0% 99%;
+  --primary: 0 0% 99%;
+  --primary-foreground: 0 0% 13%;
+  --secondary: 0 0% 15%;
+  --secondary-foreground: 0 0% 99%;
+  --muted: 0 0% 15%;
+  --muted-foreground: 0 0% 44%;
+  --accent: 0 0% 15%;
+  --accent-foreground: 0 0% 99%;
+  --destructive: 0 71.6% 50.6%;
+  --destructive-foreground: 0 84.2% 60.2%;
+  --border: 0 0% 15%;
+  --input: 0 0% 15%;
+  --ring: 0 0% 27%;
   --chart-1: #1447e6;
   --chart-2: #00bb7f;
   --chart-3: #f99c00;
@@ -1245,25 +1230,6 @@ body {
 
 @supports (color: lab(0% 0 0)) {
   .dark {
-    --background: lab(2.75381% 0 0);
-    --foreground: lab(98.26% 0 0);
-    --card: lab(2.75381% 0 0);
-    --card-foreground: lab(98.26% 0 0);
-    --popover: lab(2.75381% 0 0);
-    --popover-foreground: lab(98.26% 0 0);
-    --primary: lab(98.26% 0 0);
-    --primary-foreground: lab(7.78201% -.0000149012 0);
-    --secondary: lab(15.204% 0 0);
-    --secondary-foreground: lab(98.26% 0 0);
-    --muted: lab(15.204% 0 0);
-    --muted-foreground: lab(66.128% -.0000298023 .0000119209);
-    --accent: lab(15.204% 0 0);
-    --accent-foreground: lab(98.26% 0 0);
-    --destructive: lab(28.5139% 44.5539 29.0463);
-    --destructive-foreground: lab(55.4814% 75.0732 48.8528);
-    --border: lab(15.204% 0 0);
-    --input: lab(15.204% 0 0);
-    --ring: lab(34.924% 0 0);
     --chart-1: lab(36.9089% 35.0961 -85.6872);
     --chart-2: lab(66.9756% -58.27 19.5419);
     --chart-3: lab(72.7183% 31.8672 97.9407);
