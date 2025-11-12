@@ -26,6 +26,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { SkillBadge } from "@/components/SkillBadge"
 import profilesData from "@/data/profiles.json"
 import { useTheme } from "next-themes"
+import { SoftSkillBadge } from "@/components/SoftSkillBadge"
 
 interface Profile {
   id: number
@@ -338,9 +339,7 @@ export default function Home() {
                     </h4>
                     <div className="flex flex-wrap gap-2">
                       {selectedProfile.softSkills.map((skill, index) => (
-                        <Badge key={index} variant="outline">
-                          {skill}
-                        </Badge>
+                        <SoftSkillBadge key={index} skill={skill} />
                       ))}
                     </div>
                   </div>
